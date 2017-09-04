@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Show notification alerts when debug.log WordPress it's changed",
   "main": "index.js",
+  "repository": {
+	"type" : "git",
+  	"url" : "git@github.com:Apiki/watch-wp-debug.git"
+  },
   "scripts": {
     "start": "node index.js"
   },
