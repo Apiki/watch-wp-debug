@@ -1,0 +1,23 @@
+{
+  "name": "watch-wp-debug",
+  "version": "1.0.0",
+  "description": "Show notification alerts when debug.log WordPress it's changed",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "wordpress",
+    "watch",
+    "files"
+  ],
+  "author": "@kassyn",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^1.7.0",
+    "colors": "^1.1.2",
+    "node-notifier": "^5.1.2",
+    "opn": "^5.1.0",
+    "read-last-lines": "^1.2.0"
+  }
+}
