@@ -1,8 +1,4 @@
-1.0.3
-=========
-
-## Watch WP debug.log
-Show notification alerts when debug.log WordPress it's changed
+# Watch WP debug.log
 
 ## Dependencies
 * [Node.js](https://nodejs.org/en/download/) (>= v6.10.3)
