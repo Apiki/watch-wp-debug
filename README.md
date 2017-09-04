@@ -1,13 +1,17 @@
+1.0.3
+=========
+
 ## Watch WP debug.log
 Show notification alerts when debug.log WordPress it's changed
 
 ## Dependencies
 * [Node.js](https://nodejs.org/en/download/) (>= v6.10.3)
 
+## Installation
+`npm install -g watch-wp-debug`
+
 ## Usage
-```
-watch-wp-debug /path/to/file/debug.log
-```
+`watch-wp-debug /path/to/file/debug.log`
 
 ## Contributing
 1. Fork it!
