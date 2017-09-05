@@ -8,7 +8,7 @@ const colors   = require( 'colors' );
 const open     = require( 'opn' );
 const apps     = ['google chrome', 'google-chrome', 'chrome'];
 
-if ( !process.argv[1] ) {
+if ( !process.argv[2] ) {
 	console.log( 'file is not defined'.red );
 	process.exit( 1 );
 }
@@ -21,7 +21,7 @@ function onReadNotify(path, lines) {
 	});
 }
 
-const watcher = chokidar.watch( process.argv[1], {
+const watcher = chokidar.watch( process.argv[2], {
 	persistent: true
 });
 
@@ -32,7 +32,7 @@ watcher
 ;
 
 notifier.on( 'click', () => {
-	open( process.argv[1], { app: apps } );
+	open( process.argv[2], { app: apps } );
 });
 
-console.log( `watching ${process.argv[1]}`.green );
+console.log( `watching ${process.argv[2]}`.green );
