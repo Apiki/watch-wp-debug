@@ -1,4 +1,4 @@
-# Watch WP debug.log
+# Watch WP debug.log [![Build Status](https://travis-ci.org/Apiki/watch-wp-debug.svg?branch=master)](https://travis-ci.org/Apiki/watch-wp-debug)
 
 ## Dependencies
 * [Node.js](https://nodejs.org/en/download/) (>= v6.10.3)
