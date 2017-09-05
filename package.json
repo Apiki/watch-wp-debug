@@ -1,6 +1,6 @@
 {
   "name": "watch-wp-debug",
-  "version": "1.0.3",
+  "version": "1.1.4",
   "description": "Show notification alerts when debug.log WordPress it's changed",
   "main": "index.js",
   "repository": {
@@ -26,5 +26,8 @@
   },
   "engines": {
 	"node": ">=6.10.3"
+  },
+  "bin": {
+	  "watch-wp-debug": "./index.js"
   }
 }
